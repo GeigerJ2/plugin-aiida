@@ -1,1 +1,3 @@
 copied_from_gitplugin/
+node_modules/
+yarn.lock

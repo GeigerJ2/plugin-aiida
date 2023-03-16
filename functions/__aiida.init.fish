@@ -36,5 +36,5 @@ function __aiida.init
   __aiida.create_abbr vgl 'verdi group list -a'
 
   # Cleanup declared functions
-  functions -e # __aiida.create_abbr
+  functions -e __aiida.create_abbr
 end
