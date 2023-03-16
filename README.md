@@ -11,6 +11,10 @@
 
 <br/>
 
+## Demo
+
+![](https://github.com/GeigerJ2/plugin-aiida/blob/main/demo/fish_aiida_plugin_demo.gif)
+
 ## Install
 
 oh-my-fish:
