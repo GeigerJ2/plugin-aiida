@@ -17,17 +17,24 @@
 
 ## Install
 
-oh-my-fish:
-
-```fish
-omf install https://github.com/GeigerJ2/plugin-aiida
-```
-
 fisher:
 
 ```fish
 fisher install GeigerJ2/plugin-aiida
 ```
+
+## Note
+
+For the AiiDA profile to appear on the right prompt, one needs to manually apply the following modification:
+`\x1epython\x1ejava -> \x1epython\x1eaiida\x1ejava'
+in the file:
+`$HOME/.config/fish/fish_variables`
+For the universal variable:
+`_tide_right_items`
+which is set via:
+`SETUVAR`
+
+I tried using `sed` to automate this, but didn't manage due to the `\x1e` control characters...
 
 <div style="page-break-after: always;"></div>
 
