@@ -1,9 +1,12 @@
 <img src="https://cdn.rawgit.com/oh-my-fish/oh-my-fish/e4f1c2e0219a17e2c748b824004c8d0b38055c16/docs/logo.svg" align="left" width="144px" height="144px"/>
 
-#### aiida
+❤️
 
-> An aiida aliases plugin for [Oh My Fish][omf-link] and [Fisher][fisher-link],
-> based on the [Oh My Fish git Plugin][omf-git-plugin].
+<img src="https://www.aiida.net/_static/logo-dark.svg" align="left" width="20%" height="20%"/>
+
+<br/>
+
+An aiida aliases plugin for `Fisher`, based on the `omf-git-plugin`.
 
 [![MIT License](https://img.shields.io/badge/license-MIT-007EC7.svg?style=flat-square)](/LICENSE)
 [![Fish Shell Version](https://img.shields.io/badge/fish-v3.5.0-007EC7.svg?style=flat-square)](https://fishshell.com)
@@ -26,12 +29,19 @@ fisher install GeigerJ2/plugin-aiida
 ## Note
 
 For the AiiDA profile to appear on the right prompt, one needs to manually apply the following modification:
-`\x1epython\x1ejava -> \x1epython\x1eaiida\x1ejava'
+
+`\x1epython\x1ejava -> \x1epython\x1eaiida\x1ejava`
+
 in the file:
+
 `$HOME/.config/fish/fish_variables`
+
 For the universal variable:
+
 `_tide_right_items`
+
 which is set via:
+
 `SETUVAR`
 
 I tried using `sed` to automate this, but didn't manage due to the `\x1e` control characters...
@@ -130,7 +140,7 @@ Inspect and manage users.
 
 # License
 
-[MIT][mit] © [Julian Geiger][author] et [al][contributors]
+[MIT][mit] © [Julian Geiger][author]
 
 [mit]: https://opensource.org/licenses/MIT
 [author]: https://github.com/GeigerJ2
